@@ -8,7 +8,8 @@
 
     <title>Local Storage</title>
 
-    <link rel="stylesheet" href="bootstrap.min.css">
+   <!--  <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   </head>
 
@@ -24,6 +25,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
           </ul>
@@ -31,12 +33,17 @@
         </div>
       </nav>
     </header>
+     <!-- the progress_bar -->
+     <div class="position-sticky w-100" style="top: 0; z-index: 999;">
+        <div class="progress">
+          <div id='scroll' class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="transition: none"></div>
+        </div>
+      </div>
 
+      <div class="container">
+        <main role="main">
 
-    <div class="container">
-      <main role="main">
-
-      <div class="jumbotron py-4">
+     <!--  <div class="jumbotron py-4">
         <h3>Playing with local storage and document selectors</h3>
         <p>in the <code>index.js</code> I made a call to the Openweather API. To not reach any api-limit we want to save the result first into the localStorage.</p>
         <p><strong>Task:</strong> Use the result of the API call, save it into the localStorage. Then use the contents of the localStorage to fill all the <span class="text-success">green</span> gaps on this page.</p>
@@ -52,8 +59,8 @@
         <br/>
         For refernce to the api check: 
         <a href="http://openweathermap.org/current" target="_blank">Open Weather Map API Docs</a>
-      </div>
-
+      </div> -->
+ 
       <table class="table">
         <thead class="thead-dark">
           <tr>
